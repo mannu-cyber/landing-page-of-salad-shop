@@ -1,0 +1,175 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     background-color: white;
+     color: #382E2D;
+}
+
+html, body{
+     width: 100%;
+     height: 70%;
+}
+
+
+body{
+     width: 100%;
+     height: 100%;
+     font-family: Cursive;
+}
+
+.main{
+     display: flex;
+     justify-content: space-between;
+width: 100%;
+height: 100%;
+}
+
+.left-wrapper{
+     margin-left: 5px;
+     width: 50%;
+     height: 100%;
+     /* background-color: rebeccapurple; */
+}
+.left-wrapper img{
+     max-width: 100%;
+     height: 70vh;
+}
+
+.right-wrapper{
+     width: 55%;
+     height: 100vh;
+     position: relative;
+}
+.navbar{
+     margin-top: 5vw;
+     font-weight: 300;
+     position: relative;
+     display: flex;
+     gap: 3vw;
+     font-size: .7vw;
+     margin-left: 30%;
+     height: 3vw;
+     /* background-color: rebeccapurple; */
+}
+
+.navbar h1{
+     transition: 1s;
+
+
+}
+
+.navbar :nth-child(1){
+     border-bottom: 1px solid #000;
+}
+
+.navbar h1:hover {
+     scale: .88;
+     cursor: pointer;
+     color:red;
+
+}
+
+
+.content{
+     height: calc(100% - 23vw );
+     display: flex;
+     align-items: center;
+     /* justify-content: center; */
+     flex-direction: column;
+     position: relative;
+     padding: 5vw;
+}
+
+
+.main-quote{
+     /* position: absolute; */
+     left: 4vw;
+     font-size: 6vw;
+     font-weight: 300;
+}
+
+.after-main-quote{
+     /* position: absolute; */
+     bottom: 11vw;
+     font-size: 1.2vw;
+     padding: 0 8vw;
+margin-left: 3vw;
+}
+.price{
+     position: absolute;
+     left: 15vw;
+     bottom: -150px;
+     color: red;
+}
+
+.btn{
+     width: 8.5vw;
+     height: 2.7vw;
+     position: absolute;
+     bottom: -150px;
+     right:25vw;
+     background-color:#382E2D ;
+     color: white;
+     border: none;
+     border-radius: 1px;
+     transition: 1s;
+}
+
+.btn:hover{
+     scale: .89;
+background-color: red;
+}
+.card-container{
+     width:100%;
+     position: relative;
+     height: auto;
+     /* background-color: red; */
+     margin-top: 1vw;
+     display: flex;
+     justify-content: space-around;
+     flex-wrap: wrap;
+}
+
+.card{
+     border-radius: 10px;
+     position: relative;
+     width: 340px;
+     height: 180px;
+     background-color: #382E2D;
+
+}
+
+.card-img{
+     position: absolute;
+     top: -10px;
+     left: -10px;
+     border-radius: 5px;
+     margin: 2px;
+     width: 100px;
+     }
+
+.variety{
+     font-weight: 400;
+     position: absolute;
+     top: 3px;
+     right: 1px;
+     font-size: 1.5vw;
+     padding-right: 5px;
+     background-color:#382E2D ;
+     color: red;
+     text-decoration: underline;
+
+}
+
+.card p{
+     position: absolute;
+     bottom:2px;
+     left: 5px;
+     font-size: 20px;
+     background-color:#382E2D ;
+     color: white;
+     font-weight: 400;
+     padding:0 2vw;
+
+}
